@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8c2f9200ff550a4cb62d77c92d7fddf, type: 3}
+  m_Name: BOSS
+  m_EditorClassIdentifier: 
+  Name: BOSS
+  animatedPrefab: {fileID: 1571033137687804250, guid: 8dfdde6dcfb147147a3506f00fc11ebc, type: 3}
+  stats:
+    hp: 600
+    damage: 50
+    experience_reward: 1000
+    moveSpeed: 4

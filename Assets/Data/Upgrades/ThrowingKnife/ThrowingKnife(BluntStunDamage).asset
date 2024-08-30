@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5576378b682f2948bd30674cf466c31, type: 3}
+  m_Name: ThrowingKnife(BluntStunDamage)
+  m_EditorClassIdentifier: 
+  UpgradeType: 0
+  Name: Blunt Throwing Knife
+  icon: {fileID: 21300000, guid: 87a7f6d44ac0c20429f454ac1eb2d52c, type: 3}
+  WeaponData: {fileID: 11400000, guid: 0f677b4923078094992d8e46c1628efe, type: 2}
+  WeaponUpgradeStats:
+    damage: 100
+    timeToAttack: 0

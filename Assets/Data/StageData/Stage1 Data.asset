@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9d2e2a266981274cba9896b8c0a9fe3, type: 3}
+  m_Name: Stage1 Data
+  m_EditorClassIdentifier: 
+  stageEvents:
+  - eventType: 2
+    time: 3
+    message: Bat02
+    enemyToSpawn: {fileID: 0}
+    objectToSpawn: {fileID: 1093875462876567392, guid: 9d6370662f8f1c04fa288dcb02c5cef0, type: 3}
+    count: 15
+  - eventType: 0
+    time: 6
+    message: spawn bat
+    enemyToSpawn: {fileID: 11400000, guid: 71b4a34d8deb0b44aa276047cb05823f, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 10
+  - eventType: 0
+    time: 12
+    message: Reaper01
+    enemyToSpawn: {fileID: 11400000, guid: 93edb53e4a456c34aa5882356e407554, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 5
+  - eventType: 0
+    time: 20
+    message: Fly
+    enemyToSpawn: {fileID: 11400000, guid: adb0de466dde283428e01418b9dbd288, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 10
+  - eventType: 0
+    time: 35
+    message: Turtle
+    enemyToSpawn: {fileID: 11400000, guid: 5a90997bcde27694ab40efb593d4ca80, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 10
+  - eventType: 0
+    time: 42
+    message: Frog
+    enemyToSpawn: {fileID: 11400000, guid: 68e137d0ce324e9489644ff600980d1c, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 5
+  - eventType: 0
+    time: 50
+    message: Bat
+    enemyToSpawn: {fileID: 11400000, guid: 56416450ca2215346965f85dc68fe239, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 5
+  - eventType: 0
+    time: 58
+    message: Frog
+    enemyToSpawn: {fileID: 11400000, guid: 8180c76a386bc624dbfc6911a4288b52, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 5
+  - eventType: 1
+    time: 65
+    message: You won the stage
+    enemyToSpawn: {fileID: 11400000, guid: 95fde20d1d9817445a54fd0ae19c251b, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 1
+  - eventType: 1
+    time: 70
+    message: Frog
+    enemyToSpawn: {fileID: 11400000, guid: ef3ff120d145fb649849626cb32a7665, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 5
+  - eventType: 3
+    time: 120
+    message: Win
+    enemyToSpawn: {fileID: 0}
+    objectToSpawn: {fileID: 0}
+    count: 0
+  - eventType: 0
+    time: 150
+    message: 150
+    enemyToSpawn: {fileID: 11400000, guid: d64a724c5fa6f3a4ca179aef5ecb9592, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 10
+  - eventType: 0
+    time: 180
+    message: 180
+    enemyToSpawn: {fileID: 11400000, guid: 56416450ca2215346965f85dc68fe239, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 5
+  - eventType: 1
+    time: 200
+    message: Boss
+    enemyToSpawn: {fileID: 11400000, guid: ef3ff120d145fb649849626cb32a7665, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 1
+  - eventType: 0
+    time: 220
+    message: 220
+    enemyToSpawn: {fileID: 11400000, guid: 2559d10f61fe0e440993d06175b9b4d7, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 0
+    time: 250
+    message: 250
+    enemyToSpawn: {fileID: 11400000, guid: 95fde20d1d9817445a54fd0ae19c251b, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 0
+    time: 280
+    message: 280
+    enemyToSpawn: {fileID: 11400000, guid: 8180c76a386bc624dbfc6911a4288b52, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 40
+  - eventType: 0
+    time: 310
+    message: 310
+    enemyToSpawn: {fileID: 11400000, guid: 71b4a34d8deb0b44aa276047cb05823f, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 40
+  - eventType: 0
+    time: 330
+    message: 330
+    enemyToSpawn: {fileID: 11400000, guid: 278749d1274d9ba4f98a413cd8106cf7, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 50
+  - eventType: 3
+    time: 348
+    message: You won the stage
+    enemyToSpawn: {fileID: 0}
+    objectToSpawn: {fileID: 0}
+    count: 0

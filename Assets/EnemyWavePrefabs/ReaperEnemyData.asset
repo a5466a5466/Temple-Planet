@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8c2f9200ff550a4cb62d77c92d7fddf, type: 3}
+  m_Name: ReaperEnemyData
+  m_EditorClassIdentifier: 
+  Name: ReaperEnemy
+  animatedPrefab: {fileID: 8786313781697855809, guid: 7a52e7c11e4817f48b581156d92cdc2d, type: 3}
+  stats:
+    hp: 15
+    damage: 3
+    experience_reward: 400
+    moveSpeed: 2
